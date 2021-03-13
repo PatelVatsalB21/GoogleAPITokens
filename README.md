@@ -6,7 +6,7 @@ This repository is for demonstration to how to get **access_token**, **refresh_t
 Following things are required beforehand
 
 - Client Id and Client Secret
-- Google Sign In Functional
+- Google Sign In Integration
 
 # Working
 
@@ -21,4 +21,4 @@ By using conventional online method we get only **access_token**, while by offli
 # Additional Information
 For Client Id and Secret we need to click `Create Credential` on [Google Developer Console](https://console.developers.google.com/apis/credentials) and select type `OAuth Client ID`
 
-For Google Sign In refer [Google Sign In](https://developers.google.com/identity/sign-in/android/start-integrating)
+For Google Sign In integration refer [this](https://developers.google.com/identity/sign-in/android/start-integrating)
