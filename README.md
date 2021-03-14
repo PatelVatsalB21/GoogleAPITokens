@@ -18,6 +18,17 @@ With following entities a POST request is made. They are of two types - `offline
 
 By using conventional online method we get only **access_token**, while by offline method we get **refresh_token** too.
 
+# Dependencies
+ - `implementation("com.squareup.okhttp3:okhttp:4.9.0")`
+ - `implementation('com.google.api-client:google-api-client-android:1.22.0') {
+        exclude group: 'com.google.thirdparty'
+        exclude group: 'com.google.guava'
+    }`
+ - `implementation('com.google.apis:google-api-services-gmail:v1-rev44-1.22.0') {
+        exclude group: 'com.google.thirdparty'
+        exclude group: 'com.google.guava'
+    }`
+
 # Additional Information
 For Client Id and Secret we need to click `Create Credential` on [Google Developer Console](https://console.developers.google.com/apis/credentials) and select type `OAuth Client ID`
 
